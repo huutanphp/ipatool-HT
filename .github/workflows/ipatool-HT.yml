@@ -1,8 +1,8 @@
-name: ipatool-langkhach
+name: ipatool-huutan
 
 on:
   repository_dispatch:
-    types: [ipatool-langkhach]
+    types: [ipatool-huutan]
 
 jobs:
   Instance:
