@@ -1,8 +1,8 @@
-name: ipatool-huutan
+name: ipatool-HT
 
 on:
   repository_dispatch:
-    types: [ipatool-huutan]
+    types: [ipatool-HT]
 
 jobs:
   Instance:
