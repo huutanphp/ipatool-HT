@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>LK TEAM Profile
+
+Bạn cần tin cậy chứng chỉ gốc để sử dụng cấu hình này.
+Hướng dẫn: Cài đặt &gt; Cài đặt chung &gt; Giới thiệu &gt; Cài đặt tin cậy chứng chỉ &gt; MITM-LK &gt; On
+
+You have to trust the root CA to use this profile.
+Setup guide: Settings &gt; General &gt; About &gt; Certificate Trust Setttings &gt;  MITM-LK &gt; On</string>
+		</dict>
+		<key>HasRemovalPasscode</key>
+		<true />
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDisplayName</key>
+				<string>LK TEAM Profile</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.proxy.http.global.76b20d80-4f32-4884-b606-c30bc8d376f6</string>
+				<key>PayloadType</key>
+				<string>com.apple.proxy.http.global</string>
+				<key>PayloadUUID</key>
+				<string>0a806cc9-fb43-4f5b-96de-7542cb959045</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>ProxyCaptiveLoginAllowed</key>
+				<true />
+				<key>ProxyPACURL</key>
+				<string>https://wpad.langkhach89.workers.dev</string>
+				<key>ProxyType</key>
+				<string>Auto</string>
+			</dict>
+			<dict>
+				<key>PayloadCertificateFileName</key>
+				<string>MITM-LK.crt</string>
+				<key>PayloadContent</key>
+				<data>MIIDQjCCAiqgAwIBAgICaCQwDQYJKoZIhvcNAQELBQAwWzELMAkGA1UEBhMCQ04xEjAQBgNVBAoTCUxBTkdLSEFDSDELMAkGA1UECBMCU0gxGTAXBgNVBAsTEExLIE5ldHdvcmsgVG9vbHMxEDAOBgNVBAMTB01JVE0tTEswHhcNMjMwMTI3MTkxNTMxWhcNMjUwNTAxMTkxNTMxWjBbMQswCQYDVQQGEwJDTjESMBAGA1UEChMJTEFOR0tIQUNIMQswCQYDVQQIEwJTSDEZMBcGA1UECxMQTEsgTmV0d29yayBUb29sczEQMA4GA1UEAxMHTUlUTS1MSzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJVkngn7SRyKpbesCfoHzI3vtM0dvnwkgwDpGaLIUTfTx7jJkwD0TDqS1cOr9OinruXy7L+lkgg3Yjugc36ehQMojxD204TX3ifdqTggdQ2pDUVaqkulCGVRQt/R8chlgub6j6lDGO4yKIu40qoi2sjgpB5LEsdXr2kSAv0L3Kx1F5DICw11KBOoyCo+Mks5CV3UQmv23oiCE5eGK42nflN+2FiD6IM7Tg9ZjpugTQoSCJbrX6ekdUA5gm81dybLoyj1BSiGR/To4+pnlfk9G2cFtWVpiImuQc0fshYXwtA6uA7H75iD+mEP/alPgzQS011KWtXQU91XyJ3q50nKuuUCAwEAAaMQMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEATNYpHIeXobBMF/EWX/SbcFiltEbOW1QxN/h+shLZu7NIr5Hab14JzU3K2rz+nxxXuPa4VrGxmQENZMoAprNc1+ENQ+7c3VoYhPGZS7z+l1L4VOcMARUklD+6lyw/0Ky1y4XIYnr9h73IQfrQC0rLAi4OoGOuDPRp66r0D4tshKAV7by2L3mG+lPAfpPseRuMdIFKiHL6Uf5F8JjuehSYwMP7FC4d6SwxEw4nYK6ZKu2s4KRLbNxK1/DQiY1kk2m1Y/0ngj6Og+0nF65tdtkpIENEatcYOr6IaZH1s8wpL53yNjEnIPlUswaptQvDKbrSy8gixvkjRid5Xmg/nf7xCQ==</data>
+				<key>PayloadDisplayName</key>
+				<string>Certificate</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.security.pkcs1.2378ed9d-0a08-466b-bb20-f584c44338a7</string>
+				<key>PayloadType</key>
+				<string>com.apple.security.pkcs1</string>
+				<key>PayloadUUID</key>
+				<string>2378ed9d-0a08-466b-bb20-f584c44338a7</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>PayloadCertificateFileName</key>
+				<string>buy.itunes.apple.com.crt</string>
+				<key>PayloadContent</key>
+				<data>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlEZXpDQ0FtT2dBd0lCQWdJUUxNVENRbWpEUnJSODJZTk45dDlub1RBTkJna3Foa2lHOXcwQkFRc0ZBREJiDQpNUXN3Q1FZRFZRUUdFd0pEVGpFU01CQUdBMVVFQ2hNSlRFRk9SMHRJUVVOSU1Rc3dDUVlEVlFRSUV3SlRTREVaDQpNQmNHQTFVRUN4TVFURXNnVG1WMGQyOXlheUJVYjI5c2N6RVFNQTRHQTFVRUF4TUhUVWxVVFMxTVN6QWVGdzB5DQpNekF5TVRReU16QXhORFZhRncweU5UQTFNVGt5TXpBeE5EVmFNR2d4Q3pBSkJnTlZCQVlUQWtOT01SSXdFQVlEDQpWUVFLRXdsTVFVNUhTMGhCUTBneEN6QUpCZ05WQkFnVEFsTklNUmt3RndZRFZRUUxFeEJNU3lCT1pYUjNiM0pyDQpJRlJ2YjJ4ek1SMHdHd1lEVlFRREV4UmlkWGt1YVhSMWJtVnpMbUZ3Y0d4bExtTnZiVENDQVNJd0RRWUpLb1pJDQpodmNOQVFFQkJRQURnZ0VQQURDQ0FRb0NnZ0VCQUljTUptUTlqaEI0R3VaQ1lnTmFHbE1CeG5KY2pod2V4SmdLDQpod0t4S1dwdE4rS3pUVDUwNU90bVRzVlh1clhpdmZZam5JZnd6b2hoMTJNWlRheERpbVRiSVBpZzA3cFB2N1RlDQpaY3dDQ1JtQld4K3dmaVdoZ0x3NGp6TnNjYkFqVXFxazlwR29uMVZPaU1NSzAySmhHd0NQalNDMnpiZGppazZCDQplaDRZTzNTK1QzSHUwazg2L1J4REcxQnFPUkV4WlcyNmJpMFRwSFpjczFZOWpqN3lXZHhHZjd6ZXhwL045NDFzDQp0QSt5dExjWmVGcURUNzh4cE5McDUycnpySFZ6OWFzOGl1OHoxRll3dzkwcWk0M0F1bVdVYytqdVdDd3lURHg1DQo4Rmc1WWlOUzVjaWNvUHNYc0U5c04yZE1hOE13bEJEWWhhVUxidGdpWjlWZ2dwVm9TQVVDQXdFQUFhTXVNQ3d3DQpDUVlEVlIwVEJBSXdBREFmQmdOVkhSRUVHREFXZ2hSaWRYa3VhWFIxYm1WekxtRndjR3hsTG1OdmJUQU5CZ2txDQpoa2lHOXcwQkFRc0ZBQU9DQVFFQWVxa1RmdzBEUDBlT3JmdVh3Rjh2dFNEOWc2cnRZb0FCU1hrSzdjYnh3dy9UDQpzYlpKUy9pclN6UEhBMWdrTHIzMXE1UWRvdktsNDBFZU1mVVArSjlGYWhpeUxiQm5HWVJ0TU84VnJiRVVuU3BLDQo3alZObUpzTWYwVmlQNTlXZStIbEljU3hvS2ZuSDdoUjFNeE9rZUJMdnkxRmJ0enV3QU14QUJQM3AzK045blhkDQp1bDBEUFF3NEJvbWMyakZEME1pWGpTRjhDQmlVWG5LR1U0djNiSE5xcHoxZUYvL0FoZ3dMZm5JY2dsNXcxOUxPDQpZRnhiaWsvVEtDamNQWGt5aDVESTN4TU92L1JiRXRTcnM3ZkxINU9IcTdybXRwcUkvZ0RrOUFVWVVtL2xQQnE0DQpUMk1sY2k4Q3ZhNENaSG13V09Bd0M4SHJSQU5xZFptUjh2SEU0L3N5a3c9PQ0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ0K</data>
+				<key>PayloadDisplayName</key>
+				<string>Certificate</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.security.pem.b605ef71-76e9-4274-b2b7-0a9a2fd1b7ca</string>
+				<key>PayloadType</key>
+				<string>com.apple.security.pem</string>
+				<key>PayloadUUID</key>
+				<string>b605ef71-76e9-4274-b2b7-0a9a2fd1b7ca</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>PayloadCertificateFileName</key>
+				<string>api.revenuecat.com.crt</string>
+				<key>PayloadContent</key>
+				<data>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlEZHpDQ0FsK2dBd0lCQWdJUVprTVFnNGdxU2NldlkrMlBSWGU2WFRBTkJna3Foa2lHOXcwQkFRc0ZBREJiDQpNUXN3Q1FZRFZRUUdFd0pEVGpFU01CQUdBMVVFQ2hNSlRFRk9SMHRJUVVOSU1Rc3dDUVlEVlFRSUV3SlRTREVaDQpNQmNHQTFVRUN4TVFURXNnVG1WMGQyOXlheUJVYjI5c2N6RVFNQTRHQTFVRUF4TUhUVWxVVFMxTVN6QWVGdzB5DQpNekF5TVRReU16SXlORGhhRncweU5UQTFNVGt5TXpJeU5EaGFNR1l4Q3pBSkJnTlZCQVlUQWtOT01SSXdFQVlEDQpWUVFLRXdsTVFVNUhTMGhCUTBneEN6QUpCZ05WQkFnVEFsTklNUmt3RndZRFZRUUxFeEJNU3lCT1pYUjNiM0pyDQpJRlJ2YjJ4ek1Sc3dHUVlEVlFRREV4SmhjR2t1Y21WMlpXNTFaV05oZEM1amIyMHdnZ0VpTUEwR0NTcUdTSWIzDQpEUUVCQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUNJSDNSdk1NaVd5K3RITTFObENGVmZKeVFyM3lnN3cvYThka0RyDQpJdmZVRXpiVTlCOXpmaWlUb3NaTlhURTFoVkticWFoUkp0QnFTRkt4RUg4TVlUNU9BUnUyYlg1QXhEMjlYMU1YDQo0emlrMkR2ZVp3RVp2U1JsZFozUzhLYk9ya0lGTFBMZk1ZNlVOTWI4dTBWQ2hzdnNrZHNBSnJFRndJclZWdk5zDQpqMTBZSmlLRnJnTVVlLzlsNHZoQUpxVUppN29vQWVGRHZZSVNuNGZ3SGlmNkdMb3VLNUg4eHV1bWxsNnlrYkJPDQpPaHJBTWt5bzlTb1owNjNlUUdyd2VoZzN5VHdJanJYTVlHM2w5VExSSlQ4eDJSdnVkVVFoRmV2VjVSdWhYUmdhDQpOOW9EKytyQVZERUp2ME5YODRRdFd1S2xzblUyRHZhZ3VOcUllSWtMcWR5MHFlVHpBZ01CQUFHakxEQXFNQWtHDQpBMVVkRXdRQ01BQXdIUVlEVlIwUkJCWXdGSUlTWVhCcExuSmxkbVZ1ZFdWallYUXVZMjl0TUEwR0NTcUdTSWIzDQpEUUVCQ3dVQUE0SUJBUUJRMGtLOUhYRkVLNy93SE9POC90R0tUQU9RSi82NzFnTVd1Rk5vMTZtRjlVUTJkWk1ZDQpIenJDa0IzRlNjZnJOdzVXTXNudVpnMno3L3FVTGdpcXZVb203aHQ1ZFhoQWhqVzd5VlFwY0VMS2dMTTh3VlRwDQpjSjdwYXNoaFJzMTVnS3BLYkVvWHIrTU9pQkhudk0yVEdqdHlFd1ZDUmRFcVFtWHF6dkhOMjRhbFdreWg4M0lUDQpTeEVxUFlsZENIZ1lCZUp5V0lsS0ZXTnowM3JGam9CUmxNTjFENFVmdXhRemI1ZnIveUdDRVUxRzFGNjFZMy9NDQpGckRLbXVvYUNmbnF4RmFrTHZ2blFGYmRJOW9xUXRVMnBzV05TeHBIVDBzbmFMdUNrZkduVTdsaFYyaUVXdlAyDQp2aHVlUTFtaEJUR2dEa3JWeVdOR1d6RFhyckNKZTNrRVIwVTkNCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0NCg==</data>
+				<key>PayloadDisplayName</key>
+				<string>Certificate</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.security.pem.2d60d5f0-9e50-49ad-832e-2efa0e49baf7</string>
+				<key>PayloadType</key>
+				<string>com.apple.security.pem</string>
+				<key>PayloadUUID</key>
+				<string>2d60d5f0-9e50-49ad-832e-2efa0e49baf7</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+					<array />
+					<key>ServerURL</key>
+					<string>https://doh.langkhach89.workers.dev</string>
+				</dict>
+				<key>OnDemandRules</key>
+				<array>
+          <dict>
+            <key>Action</key>
+            <string>EvaluateConnection</string>
+            <key>ActionParameters</key>
+            <array>
+              <dict>
+                <key>DomainAction</key>
+                <string>NeverConnect</string>
+                <key>Domains</key>
+                <array>
+                  <string>captive.apple.com</string>
+                  <string>api.cloudflare.com</string>
+                  <string>weather-data.apple.com</string>
+                  <string>xp.apple.com</string>
+                  <string>gateway.icloud.com</string>
+                  <string>mask-canary.icloud.com</string>
+                  <string>apps.mzstatic.com</string>
+                  <string>play.itunes.apple.com</string>
+                  <string>musicstatus.itunes.apple.com</string>
+                  <string>gsa.apple.com</string>
+                  <string>time.apple.com</string>
+                  <string>bag.itunes.apple.com</string>
+                  <string>gateway.fe.apple-dns.net</string>
+                  <string>api-edge.apps.apple.com</string>
+                  <string>mozilla.cloudflare-dns.com</string>
+                  <string>cloudflare-dns.com</string>
+                  <string>dns.google</string>
+                  <string>wpad.langkhach89.workers.dev</string>
+                </array>
+              </dict>
+            </array>
+          </dict>
+          <dict>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+        </array>
+				<key>PayloadDisplayName</key>
+				<string>LK TEAM DNS</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.763b2ebc-1ed8-4ed6-bef3-5ecae255e29c</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>e4ec620b-6a74-4fd4-a493-6802098b656c</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>© 2023 LK TEAM
+
+Nghiêm cấm tự ý chia sẻ cấu hình này. Tham gia Telegram LK Group để nhận cập nhật mới nhất
+
+It is strictly forbidden to share this configuration. Join the Telegram LK Group to receive the latest update
+
+====================
+Telegram LK Group: https://t.me/LKTEAM2023
+====================
+
+Bạn cần tin cậy chứng chỉ gốc để sử dụng cấu hình này.
+Hướng dẫn: Cài đặt &gt; Cài đặt chung &gt; Giới thiệu &gt; Cài đặt tin cậy chứng chỉ &gt; MITM-LK &gt; On
+
+You have to trust the root CA to use this profile.
+Setup guide: Settings &gt; General &gt; About &gt; Certificate Trust Setttings &gt;  MITM-LK &gt; On</string>
+		<key>PayloadDisplayName</key>
+		<string>LK TEAM Profile</string>
+		<key>PayloadIdentifier</key>
+		<string>LK.proxy</string>
+		<key>PayloadOrganization</key>
+		<string>LK</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>c92f0023-4732-464e-8bd0-df60d234b201</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
+		<integer>1</integer>
+	</dict>
+</plist>
