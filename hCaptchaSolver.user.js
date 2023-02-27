@@ -49,7 +49,7 @@
       },
       APIKEY: {
         type: "text",
-        default: "",
+        default: "apikey-595d508b-bb76-85c7-503f-232e9aa5de2a",
       },
       PLAN: {
         type: "select",
